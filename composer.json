@@ -1,0 +1,22 @@
+{
+	"name": "lcobucci/action-mapper-skeleton",
+	"description": "A pre-configured skeleton for the ActionMapper2 microframework",
+	"type": "project",
+	"authors": [{
+			"name": "Luís Otávio Cobucci Oblonczyk",
+			"email": "lcobucci@gmail.com"
+		}
+	],
+	"keywords": [],
+	"license": [
+		"BSD-3-Clause"
+	],
+	"require": {
+		"lcobucci/action-mapper": "develop-dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "src"
+		}
+	}
+}
